@@ -32,6 +32,12 @@ dependencies {
     runtimeOnly("org.lwjgl:lwjgl:$lwjglVersion:$lwjglNatives")
     runtimeOnly("org.lwjgl:lwjgl-glfw:$lwjglVersion:$lwjglNatives")
     runtimeOnly("org.lwjgl:lwjgl-stb:$lwjglVersion:$lwjglNatives")
+
+    // Tinylog
+    implementation("org.tinylog:tinylog-api:2.6.2")
+    implementation("org.tinylog:tinylog-impl:2.6.2")
+    // JOML
+    implementation("org.joml:joml:1.10.5")
 }
 
 tasks.test {
